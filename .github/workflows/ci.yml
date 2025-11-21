@@ -16,7 +16,7 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: Train model
-      run: python train.py
+      run: python Scripts/train.py
 
     - name: Report Metrics (CML)
       env:
